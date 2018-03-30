@@ -16,7 +16,10 @@ namespace pkmn
 	 	   void render();
 	 	   void update();
 	 	   void clean();
+	 	  public:
+	 	   game();
+	 	   ~game();
+	 	   
+	 	   void runloop();
 	 }
 }
-
-
